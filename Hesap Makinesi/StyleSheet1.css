@@ -1,0 +1,87 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing : border-box;
+}
+
+body{
+    font-size:15px;
+}
+
+h1 {
+    position: absolute;
+    top:5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.hesapmakinesi{
+    border: 5px outset ;
+    width:400px;
+    position:absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    background-color:#b5b5b5;
+}
+
+.HMinput{
+    width: 100%;
+    font-size:40px;
+    height:60px;
+    border:none;
+    background-color:#808080;
+    color:#ceff54;
+    text-align:right;
+    padding: 0 18px 0 18px ;
+}
+
+button {
+    height: 50px;
+    background-color: #ffffff;
+    border: 4px outset ;
+    background-color: #ccfc54;
+    font-size:25px;
+    color:#333;
+}
+
+button:hover{
+    background-color:#b6ff00;
+}
+
+.temizle {
+    background-color: #ff3e3e;
+    border-color: #ccc;
+    color: #ccc;
+    
+}
+
+    .temizle:hover {
+        background-color: #ff2323;
+    }
+
+.esittir {
+    background-color: #f66e49;
+    color: #fff;
+    grid-area: 5/1/5/4;
+    width:100%;
+}
+
+.esittir:hover {
+    background-color: #f6491a;
+}
+
+
+.hesapmakinesituslar{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap:20px;
+    padding:20px;
+}
+
+.topla{
+    grid-area:4/4/6/5;
+    height:100%;
+}
